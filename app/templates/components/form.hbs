@@ -55,9 +55,8 @@
   </div>
 </form>
 
-<button {{action this.showPerson @firstName}} class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded">
-  Button
-</button>
+<SubmitButton @showPerson={{this.showPerson}} @firstName={{@firstName}} />
+
 
 {{!-- <button {{did-insert this.pageIsReady}} id="there-can-only-be-one" class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded">
   Button

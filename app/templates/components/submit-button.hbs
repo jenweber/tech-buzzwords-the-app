@@ -1,0 +1,9 @@
+<button data-test-submit-button {{action this.reveal @firstName}} class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded">
+  Button
+</button>
+
+{{#if shouldShowPerson}}
+<div data-test-show-person>
+    {{@firstName}}  is here!
+</div>
+{{/if}}
